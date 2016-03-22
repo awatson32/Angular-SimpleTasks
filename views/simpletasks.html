@@ -2,13 +2,25 @@
     <button class="btn btn-primary" ng-click="alert()">Click Me</button>
 </div>
 
-<form id="simple2">
-    <textarea class="form-control" rows="3" placeholder="What's Happening?" ng-model="message"></textarea>
-    <button class="btn btn-primary" ng-click="showMessage()">Submit</button>
-</form>
-
-<div id="simple3" ng-mouseenter="changeColor()">
-    Hover over me to change my color.
+<div id="simple2>"
+    <form>
+        <textarea class="form-control" rows="3" placeholder="What's Happening?" ng-model="message"></textarea>
+        <button class="btn btn-primary" ng-click="showMessage()">Submit</button>
+    </form>
 </div>
 
-<input type="text" placeholder="This is a text box">
+
+<div 
+    id="simple3" 
+    ng-style="style"
+    ng-mouseenter="style={'background-color': 'blue'}" 
+    ng-mouseleave="style={}">
+Hover over me to change my color.
+</div>
+
+<div id="simple4>"
+    <p ng-click="changeColor()">
+        Click this red text to change its color.
+    </p>
+        
+</div>

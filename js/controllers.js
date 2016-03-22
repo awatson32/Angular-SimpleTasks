@@ -5,3 +5,9 @@ controllers.controller('ButtonController', ['$scope', function($scope) {
         alert("You look nice today!");
     };
 }]);
+
+controllers.controller('ChangeColorController', ['$scope', function($scope) {
+    $scope.changeColor = function() {
+        
+    }
+}])
