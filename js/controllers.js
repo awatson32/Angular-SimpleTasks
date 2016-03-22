@@ -10,4 +10,11 @@ controllers.controller('ChangeColorController', ['$scope', function($scope) {
     $scope.changeColor = function() {
         
     }
+}]);
+
+controllers.controller('FriendsListController', ['$scope', function($scope) {
+    $scope.friends = ["Jerica", "Rachel", "Emily", "Andrew", "Otto", "Cody", "Glen", "Jeff", "Jay", "Jackson"];
+    $scope.showFriends = function() {
+        
+    }
 }])

@@ -8,6 +8,13 @@
     background-color: purple;
 }
 
+#simple5 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
 div {
     width: 400px;
     padding: 20px;
