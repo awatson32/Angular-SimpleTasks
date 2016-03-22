@@ -77,8 +77,8 @@ as an `li` to the `ul` on the page.-->
         </div>
         <div class="col-md-6">
             <div id="simple6">
-                <ul class="friends" ng-repeat="friend in friends">
-                    <li>{{friend.name}}</li>
+                <ul>
+                    <li class="friends" ng-repeat="friend in friends">{{friend.name}}</li>
                 </ul>
                 <button class="btn btn-default" ng-click="showFriends()">Add Friend</button>
             </div>

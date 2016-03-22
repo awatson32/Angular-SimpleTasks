@@ -15,6 +15,8 @@ controllers.controller('ChangeColorController', ['$scope', function($scope) {
 controllers.controller('FriendsListController', ['$scope', function($scope) {
     $scope.friends = ["Jerica", "Rachel", "Emily", "Andrew", "Otto", "Cody", "Glen", "Jeff", "Jay", "Jackson"];
     $scope.showFriends = function() {
-        
+        for (i = 0; i < friends.length; i++) {
+        $scope.friends.push();
+        }
     }
 }])
